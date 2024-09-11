@@ -11,7 +11,6 @@ public class Task {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
     private int id;
-    @Column
     private String name;
     //status field is responsible for soft delete, 1 is active and 0 is deleted
     private short status;
